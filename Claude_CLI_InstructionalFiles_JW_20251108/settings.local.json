@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:mycopilot.ai)",
+      "WebFetch(domain:www.summit.im)",
+      "WebFetch(domain:apps.apple.com)",
+      "mcp__clickup__clickup_get_task",
+      "mcp__clickup__clickup_search",
+      "mcp__clickup__clickup_create_task",
+      "WebSearch",
+      "WebFetch(domain:www.flowhunt.io)",
+      "WebFetch(domain:help.zapier.com)",
+      "WebFetch(domain:zapier.com)",
+      "WebFetch(domain:www.gumloop.com)",
+      "WebFetch(domain:www.activepieces.com)",
+      "WebFetch(domain:github.com)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "clickup"
+  ]
+}
